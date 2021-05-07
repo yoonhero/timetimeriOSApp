@@ -24,6 +24,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         // Do any additional setup after loading the view.
         myWebView.navigationDelegate = self
         loadWebPage("https://time-timer.netlify.app")
+        
     }
 
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
